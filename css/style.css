@@ -78,6 +78,19 @@ nav ul li a {
     height: 60px;
 }
 
+.logo img:hover {
+    animation: gira 5s ease-in-out;
+}
+
+@keyframes gira {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.2;
+    }
+}
+
 .logo h2 {
     font-family: 'Source Code Pro';
     color: #fff;
